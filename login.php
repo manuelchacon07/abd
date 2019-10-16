@@ -37,7 +37,7 @@ pg_close($dbconn);
                          echo $obj->nombre."<br />";
                 }
                 else
-                    echo "<p>No se encontraron $table</p>";
+                    echo "<p>No se encontró la tabla $table</p>";
             }
             else
                 $ok = false;
